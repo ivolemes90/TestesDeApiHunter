@@ -1,0 +1,428 @@
+{
+	"id": "7a4d23cf-d3c8-4fc0-9d3e-113f8ee0e414",
+	"name": "API Hunter",
+	"timestamp": "2023-09-11T01:08:22.285Z",
+	"collection_id": "29629043-65e8b82e-9fe0-434b-acdc-44281e82ac41",
+	"folder_id": 0,
+	"environment_id": "29629043-1ce1262e-c420-4cd4-8949-a36692232b53",
+	"totalPass": 26,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-11T01:08:14.426Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3a3f4c37-d4bc-4820-81d8-a02860596a73",
+			"name": "POST - Criar Novo Lead",
+			"url": "https://api.hunter.io/v2/leads?api_key=AUTH_VALUE",
+			"time": 1259,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Successful POST request": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1259
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "45bcb3d4-b7d3-4c26-b379-181c48a7e6a4",
+			"name": "GET - Todos Leads",
+			"url": "https://api.hunter.io/v2/leads?api_key=AUTH_VALUE",
+			"time": 434,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				434
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "6b5c4c1b-8841-4b2a-b6c8-4dd8b4b70955",
+			"name": "GET - Buscar Lead Específico",
+			"url": "https://api.hunter.io/v2/leads/136597425?api_key=AUTH_VALUE",
+			"time": 998,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				998
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "028b095f-64df-4e6d-b49f-9e3905a00a83",
+			"name": "PUT - Editar Lead",
+			"url": "https://api.hunter.io/v2/leads/136597425?api_key=AUTH_VALUE",
+			"time": 1213,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1213
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "c1080280-6710-4c50-8616-d07637e8520f",
+			"name": "DELETE - Excluir Lead",
+			"url": "https://api.hunter.io/v2/leads/136597425?api_key=AUTH_VALUE",
+			"time": 504,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				504
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "7d50d740-dba1-4131-b8e9-5bf251b07dda",
+			"name": "POST - Criar Nova Lista de Lead",
+			"url": "https://api.hunter.io/v2/leads_lists?api_key=AUTH_VALUE",
+			"time": 330,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Successful POST request": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				330
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "adea1080-183d-453a-b705-29576d29906d",
+			"name": "GET - Todas Leads Lists",
+			"url": "https://api.hunter.io/v2/leads_lists?api_key=AUTH_VALUE",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "8d1d625b-ddaf-48c7-b094-d2b0b5b6fca7",
+			"name": "GET - Buscar Lista de Lead Específica",
+			"url": "https://api.hunter.io/v2/leads_lists/4638566?api_key=AUTH_VALUE",
+			"time": 1095,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1095
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "6ca6bbe3-4d1f-452e-94bb-f1df19b43f9d",
+			"name": "PUT - Editar Lista de Lead",
+			"url": "https://api.hunter.io/v2/leads_lists/4638566?api_key=AUTH_VALUE",
+			"time": 352,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				352
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "2d713f59-8121-4f4f-a41c-df144c5c635a",
+			"name": "DELETE - Excluir Lista de Lead",
+			"url": "https://api.hunter.io/v2/leads_lists/4638566?api_key=AUTH_VALUE",
+			"time": 358,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				358
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6827,
+	"collection": {
+		"requests": [
+			{
+				"id": "3a3f4c37-d4bc-4820-81d8-a02860596a73",
+				"method": "POST"
+			},
+			{
+				"id": "45bcb3d4-b7d3-4c26-b379-181c48a7e6a4",
+				"method": "GET"
+			},
+			{
+				"id": "6b5c4c1b-8841-4b2a-b6c8-4dd8b4b70955",
+				"method": "GET"
+			},
+			{
+				"id": "028b095f-64df-4e6d-b49f-9e3905a00a83",
+				"method": "PUT"
+			},
+			{
+				"id": "c1080280-6710-4c50-8616-d07637e8520f",
+				"method": "DELETE"
+			},
+			{
+				"id": "7d50d740-dba1-4131-b8e9-5bf251b07dda",
+				"method": "POST"
+			},
+			{
+				"id": "adea1080-183d-453a-b705-29576d29906d",
+				"method": "GET"
+			},
+			{
+				"id": "8d1d625b-ddaf-48c7-b094-d2b0b5b6fca7",
+				"method": "GET"
+			},
+			{
+				"id": "6ca6bbe3-4d1f-452e-94bb-f1df19b43f9d",
+				"method": "PUT"
+			},
+			{
+				"id": "2d713f59-8121-4f4f-a41c-df144c5c635a",
+				"method": "DELETE"
+			}
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"id": "1ce1262e-c420-4cd4-8949-a36692232b53",
+	"name": "Desenvolvimento",
+	"values": [
+		{
+			"key": "url_base",
+			"value": "https://api.hunter.io/v2/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "id_lead",
+			"value": "1111",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "id_lead_list",
+			"value": "11111",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-09-11T01:03:25.214Z",
+	"_postman_exported_using": "Postman/10.17.7"
+}
